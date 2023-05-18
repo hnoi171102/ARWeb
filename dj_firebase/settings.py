@@ -12,6 +12,14 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import firebase_admin
+from firebase_admin import credentials
+
+
+cred = credentials.Certificate("./ar-demo-808a4-firebase-adminsdk-w6gpm-76368eb650.json") # Replace with your own service account key path
+firebase_admin.initialize_app(cred, {
+    'databaseURL': 'https://ar-demo-808a4-default-rtdb.firebaseio.com'
+})
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
