@@ -15,3 +15,6 @@ py manage.py runserver
 ```
 http://127.0.0.1:8000/
 ```
+## MAIN FUNCTION
+ADD File to Firebase database 
+![image](https://github.com/hnoi171102/ARWeb/assets/46141589/aecd74ef-f279-4a1f-b62d-facfa28baeea)
