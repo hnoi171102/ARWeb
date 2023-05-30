@@ -1,5 +1,7 @@
 # FirebaseDatabaseInteractWeb
 Interact with Firebase Database
+
+UI looks simple because it is just for testing functionality.
 ## HOW TO RUN THIS PROJECT
 - Install Python (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
