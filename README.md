@@ -1,5 +1,5 @@
-# ARWeb
-web cho Ar
+# FirebaseDatabaseInteractWeb
+Interact with Firebase Database
 ## HOW TO RUN THIS PROJECT
 - Install Python (Dont Forget to Tick Add to Path while installing Python)
 - Open Terminal and Execute Following Commands :
